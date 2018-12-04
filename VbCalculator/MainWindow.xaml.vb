@@ -2,6 +2,18 @@
     Dim selectedOp As SelectedOperator
     Dim result As Double
     Dim lastNumber As Double
+    Dim add = Function(n1, n2) n1 + n2
+    Dim subtract = Function(n1, n2) n1 - n2
+    Dim multiply = Function(n1, n2) n1 * n2
+    Dim divide =
+        Function(n1, n2)
+            If (n2 = 0) Then
+                MessageBox.Show("Division by Zero is not supported.", "Invalid Operation.", MessageBoxButton.OK, MessageBoxImage.Stop)
+                Return 0
+            End If
+            Return n1 / n2
+        End Function
+
     Private Sub AcButton_Click(sender As Object, e As RoutedEventArgs)
         resultLabel.Content = "0"
     End Sub
@@ -66,13 +78,13 @@
         If (Double.TryParse(resultLabel.Content.ToString(), newNumber)) Then
             Select Case selectedOp
                 Case SelectedOperator.Addition
-                    result = SimpleMath.Add(lastNumber, newNumber)
+                    result = add(lastNumber, newNumber)
                 Case SelectedOperator.Subtraction
-                    result = SimpleMath.Subtract(lastNumber, newNumber)
+                    result = subtract(lastNumber, newNumber)
                 Case SelectedOperator.Multiplication
-                    result = SimpleMath.Multiply(lastNumber, newNumber)
+                    result = multiply(lastNumber, newNumber)
                 Case SelectedOperator.Division
-                    result = SimpleMath.Divide(lastNumber, newNumber)
+                    result = divide(lastNumber, newNumber)
             End Select
         End If
         resultLabel.Content = result.ToString()
@@ -84,26 +96,4 @@
         Multiplication
         Division
     End Enum
-End Class
-
-Public Class SimpleMath
-    Public Shared Function Add(n1 As Double, n2 As Double)
-        Return n1 + n2
-    End Function
-
-    Public Shared Function Subtract(n1 As Double, n2 As Double)
-        Return n1 - n2
-    End Function
-
-    Public Shared Function Multiply(n1 As Double, n2 As Double)
-        Return n1 * n2
-    End Function
-
-    Public Shared Function Divide(n1, n2)
-        If (n2 = 0) Then
-            MessageBox.Show("Division by Zero is not supported.", "Invalid Operation.", MessageBoxButton.OK, MessageBoxImage.Stop)
-            Return 0
-        End If
-        Return n1 / n2
-    End Function
 End Class
