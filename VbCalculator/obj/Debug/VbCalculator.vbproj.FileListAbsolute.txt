@@ -15,3 +15,4 @@ D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.vbproj.CoreComp
 D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.exe
 D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.xml
 D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.pdb
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.vbprojAssemblyReference.cache
