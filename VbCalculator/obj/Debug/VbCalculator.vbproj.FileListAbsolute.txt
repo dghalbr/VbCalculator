@@ -1,0 +1,17 @@
+D:\code\sandbox\VbCalculator\VbCalculator\bin\Debug\VbCalculator.exe.config
+D:\code\sandbox\VbCalculator\VbCalculator\bin\Debug\VbCalculator.exe
+D:\code\sandbox\VbCalculator\VbCalculator\bin\Debug\VbCalculator.pdb
+D:\code\sandbox\VbCalculator\VbCalculator\bin\Debug\VbCalculator.xml
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\MainWindow.g.vb
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\Application.g.vb
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator_MarkupCompile.cache
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator_MarkupCompile.lref
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\Application.baml
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\MainWindow.baml
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.g.resources
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.Resources.resources
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.vbproj.GenerateResource.cache
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.vbproj.CoreCompileInputs.cache
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.exe
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.xml
+D:\code\sandbox\VbCalculator\VbCalculator\obj\Debug\VbCalculator.pdb
